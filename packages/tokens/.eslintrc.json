@@ -1,0 +1,3 @@
+{
+  "extends": "@jvrapi-ignite-ui/eslint-config"
+}

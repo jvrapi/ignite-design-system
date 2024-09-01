@@ -1,0 +1,19 @@
+{
+  "name": "@jvrapi-ignite-ui/tokens",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "devDependencies": {
+    "@jvrapi-ignite-ui/eslint-config": "*",
+    "@jvrapi-ignite-ui/ts-config": "*",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
