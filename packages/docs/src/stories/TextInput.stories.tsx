@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { TextInput, TextInputProps } from '@jvrapi-ignite-ui/react';
+import { Box, Text, TextInput, TextInputProps } from '@jvrapi-ignite-ui/react';
 
 const meta = {
   title: 'Form/Text Input',
@@ -8,7 +8,15 @@ const meta = {
   parameters: {
     layout: 'centered',
   },
-  args: { },
+  args: {},
+  decorators: [
+    (Story) => (
+      <Box as="label" css={{display: 'flex', flexDirection: 'column', gap: '$2'}}>
+        <Text size='$sm'>Email address</Text>
+        <Story />
+      </Box>
+    ),
+  ]
 } satisfies Meta<TextInputProps>;
 
 export default meta;
