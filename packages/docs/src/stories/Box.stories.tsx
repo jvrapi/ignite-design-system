@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Box, BoxProps } from '@jvrapi-ignite-ui/react';
+import { Box, BoxProps, Text } from '@jvrapi-ignite-ui/react';
 
 const meta = {
   title: 'Surfaces/Box',
@@ -8,12 +8,9 @@ const meta = {
   parameters: {
     layout: 'centered',
   },
-  args: { 
-    children: (
-      <>
-        <span>Tesnto o elemento box</span>
-      </>
-    )
+  args: {
+    children: <Text>Testando o elemento box</Text>
+
   },
 } satisfies Meta<BoxProps>;
 
