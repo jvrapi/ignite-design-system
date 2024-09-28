@@ -11,8 +11,13 @@ const meta = {
   },
   tags: ['autodocs'],
 
-
   args: { children: 'Send', },
+
+  argTypes:{
+    onClick: {
+      action:  'click'
+    }
+  }
 } satisfies Meta<ButtonProps>;
 
 export default meta;
