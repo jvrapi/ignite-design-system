@@ -20,7 +20,7 @@ export const TextArea = styled('textarea', {
     borderColor: '$ignite300',
   },
 
-  '&:has(disabled)': {
+  '&:disabled': {
     opacity: 0.5,
     cursor: 'not-allowed',
   },
