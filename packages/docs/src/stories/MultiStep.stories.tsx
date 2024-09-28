@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Box, Text, MultiStep, MultiStepProps } from '@jvrapi-ignite-ui/react';
+import { Box, MultiStep, MultiStepProps } from '@jvrapi-ignite-ui/react';
 
 const meta = {
   title: 'Form/Multi Step',
