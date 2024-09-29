@@ -11,9 +11,28 @@ const meta = {
   },
   tags: ['autodocs'],
 
-  args: { children: 'Send', },
+  args: { 
+    children: 'Send', 
+    variant: 'primary', 
+    size: 'md',
+    disabled: false 
+  },
 
   argTypes:{
+    variant: {
+      description: 'Variant of the button',
+      options: ['primary', 'secondary', 'tertiary'],
+      control: { type: 'inline-radio' }
+    },
+    size: {
+      description: 'Size of the button',
+      options: ['sm', 'md'],
+      control: { type: 'inline-radio' }
+    },
+    disabled: {
+      description: 'Disable button',
+      control: { type: 'boolean' }
+    },
     onClick: {
       action:  'click'
     }

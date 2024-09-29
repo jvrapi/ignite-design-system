@@ -12,6 +12,20 @@ const meta = {
     src: 'https://github.com/jvrapi.png',
     alt: 'João Vitor'
   },
+  argTypes: {
+    src: {
+      description: 'Avatar image source',
+      control: {
+        type: 'text'
+      }
+    },
+    alt: {
+      description: 'Avatar image alt',
+      control: {
+        type: 'text'
+      }
+    }
+  }
 } satisfies Meta<AvatarProps>;
 
 export default meta;

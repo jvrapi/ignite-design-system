@@ -10,8 +10,14 @@ const meta = {
   },
   args: {
     children: <Text>Testando o elemento box</Text>
-
   },
+  argTypes: {
+    children: {
+      control: {
+        disable: true
+      }
+    }
+  }
 } satisfies Meta<BoxProps>;
 
 export default meta;

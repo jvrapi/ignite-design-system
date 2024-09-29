@@ -12,6 +12,14 @@ const meta = {
     size: 4,
     currentStep: 1,
   },
+  argTypes: {
+    size: {
+      description: 'Number of steps',
+    },
+    currentStep: {
+      description: 'Current step',
+    }
+  },
   decorators: [
     (Story) => (
       <Box as="label" css={{display: 'flex', flexDirection: 'column', gap: '$2'}}>
