@@ -9,7 +9,8 @@
     "build": "storybook build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "@jvrapi-ignite-ui/eslint-config": "*",
@@ -31,6 +32,7 @@
     "@storybook/manager-api": "^8.3.2",
     "@storybook/react": "^8.3.0",
     "@storybook/react-vite": "^8.3.0",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.3.0",
     "@storybook/theming": "^8.3.2",
     "@types/react": "^18.3.3",
