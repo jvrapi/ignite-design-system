@@ -1,8 +1,7 @@
 import * as RadixToolTip from '@radix-ui/react-tooltip'
-import { ComponentProps } from '../../types/ComponentProps'
 
 import { TooltipArrow, ToolTipContent } from './styles'
-import { ReactNode } from 'react'
+import { ComponentProps, ReactNode } from 'react'
 
 export type ToolTipProps = ComponentProps<typeof RadixToolTip.Root> & {
   content: string | ReactNode

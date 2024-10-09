@@ -1,5 +1,4 @@
 import * as RadixToast from '@radix-ui/react-toast'
-import { ComponentProps } from '../../types/ComponentProps'
 import {
   ToastClose,
   ToastContainer,
@@ -8,8 +7,9 @@ import {
   ToastViewport,
 } from './styles'
 import { X } from 'phosphor-react'
+import { ComponentProps } from 'react'
 
-export type ToastProps = ComponentProps<typeof RadixToast.Root> & {
+export type ToastProps = ComponentProps<typeof ToastContainer> & {
   title: string
   description: string
 }

@@ -17,8 +17,16 @@ const meta = {
       control: {
         disable: true
       }
-    }
+    },
+    content: {
+      description: 'Tooltip content',
+      control: {
+        type: 'text'
+      }
+    },
   }
+
+
 } satisfies Meta<ToolTipProps>;
 
 export default meta;

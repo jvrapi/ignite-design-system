@@ -1,5 +1,11 @@
 # @jvrapi-ignite-ui/react
 
+## 2.2.1
+
+### Patch Changes
+
+- Fix types and create some descriptions
+
 ## 2.2.0
 
 ### Minor Changes

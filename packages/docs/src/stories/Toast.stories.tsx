@@ -36,6 +36,21 @@ const meta = {
     title: 'Agendamento realizado',
     description: 'Quarta-feira, 23 de Outubro às 16h',
   },
+
+  argTypes: {
+    title: {
+      description: 'Toast title',
+      control: {
+        type: 'text'
+      }
+    },
+    description: {
+      description: 'Toast description',
+      control: {
+        type: 'text'
+      }
+    },
+  }
   
 } satisfies Meta<ToastProps>;
 
