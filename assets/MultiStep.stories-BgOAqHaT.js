@@ -1,0 +1,5 @@
+import{j as s}from"./jsx-runtime-CGpYA4L6.js";import{M as n,B as u}from"./index-5r0Yq58Q.js";import"./index-CleY8y_P.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./index-C2jgcCTd.js";const f={title:"Form/Multi Step",component:n,parameters:{layout:"centered"},args:{size:4,currentStep:1},argTypes:{size:{description:"Number of steps"},currentStep:{description:"Current step"}},decorators:[m=>s.jsx(u,{as:"label",css:{display:"flex",flexDirection:"column",gap:"$2"},children:s.jsx(m,{})})]},r={},e={args:{currentStep:4}};var t,o,a;r.parameters={...r.parameters,docs:{...(t=r.parameters)==null?void 0:t.docs,source:{originalSource:"{}",...(a=(o=r.parameters)==null?void 0:o.docs)==null?void 0:a.source}}};var p,c,i;e.parameters={...e.parameters,docs:{...(p=e.parameters)==null?void 0:p.docs,source:{originalSource:`{
+  args: {
+    currentStep: 4
+  }
+}`,...(i=(c=e.parameters)==null?void 0:c.docs)==null?void 0:i.source}}};const y=["Primary","Full"];export{e as Full,r as Primary,y as __namedExportsOrder,f as default};
